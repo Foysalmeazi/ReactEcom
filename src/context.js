@@ -7,7 +7,7 @@ class ProductSupplier extends Component
     {
         products:[],
         detailProduct:detailProduct,
-        cart:storeProducts,
+        cart:[],
         modalOpen:false,
         modalProduct:detailProduct,
         cartSubtotal:0,
@@ -66,7 +66,7 @@ class ProductSupplier extends Component
         },
         ()=>
         {
-         console.log(this.state);
+         this.addTotals();
         })
 }
 
@@ -90,8 +90,14 @@ closeModal = () =>
 
 increment = (id) =>
 {
-    console.log('This is increment');
-    
+    let tempCart = [...this.state.cart];
+    const selectProduct = tempCart.find(item=>item.id === id);
+    const index=tempCart.indexOf(selectProduct);
+    const product = tempCart[index];
+    product.count = product.count +1;
+    product.total = product.count * product.price;
+
+    this.setState(()=>{return{cart:[...tempCart]}},()=>{this.addTotals()})
 }
 
 decrement = (id) =>
@@ -101,13 +107,59 @@ decrement = (id) =>
 }
 removeItem = (id) =>
 {
-    console.log('Item Removed');
+    let tempProducts=[...this.state.products];
+    let tempCart = [...this.state.cart];
+
+    tempCart=tempCart.filter(item => item.id !==id);
+    const index = tempProducts.indexOf(this.getItem(id));
+    let removed=tempProducts[index];
+    removed.inCart=false;
+    removed.count=0;
+    removed.total=0;
+
+    this.setState(()=>
+    {
+        return{
+            cart:[...tempCart],
+            products:[...tempProducts]
+        }
+    },()=>
+    {
+       this.addTotals(); 
+    })
+
     
 }
 clearCart=()=>
 {
-    console.log('Cleared');
+    this.setState( () =>
+    {
+        return{cart:[]};
+    },
+    () =>
+    {
+        this.setProducts();
+        this.addTotals();
+    });
     
+    
+}
+
+addTotals =()=>
+{
+    let subTotal=0;
+    this.state.cart.map(item =>(subTotal += item.total));
+    const tempTax =subTotal*0.1;
+    const tax = parseFloat(tempTax.toFixed(2));
+    const total = subTotal+tax;
+    this.setState(()=>{
+            return {
+                cartSubtotal:subTotal,
+                cartTax:tax,
+                cartTotal:total
+
+            }
+        })
 }
     render()
     {
