@@ -4,6 +4,7 @@
   --mainWhite:#f3f3f3;
   --mainDark:#232528;
   --mainYellow:#ffa400;
+  --Violet:#EE82EE;
 }
 body{
   font-family: "Oswald",sans-serif !important;
@@ -18,11 +19,11 @@ body{
 }
 .text-blue
 {
-  color: var(--mainBlue);
+  color: var(--LightBlue);
 }
 .text-bright
 {
-  color: var(--LightBlue);
+  color: var(--mainBlue);
 }
 .btn-black
 {
