@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Foysalmeazi/ReactEcom/static/css/main.1c2aec14.chunk.css",
-    "main.js": "/Foysalmeazi/ReactEcom/static/js/main.1c5fddb5.chunk.js",
-    "main.js.map": "/Foysalmeazi/ReactEcom/static/js/main.1c5fddb5.chunk.js.map",
-    "runtime-main.js": "/Foysalmeazi/ReactEcom/static/js/runtime-main.9574562f.js",
-    "runtime-main.js.map": "/Foysalmeazi/ReactEcom/static/js/runtime-main.9574562f.js.map",
-    "static/css/2.63da010e.chunk.css": "/Foysalmeazi/ReactEcom/static/css/2.63da010e.chunk.css",
-    "static/js/2.1ccfc7cd.chunk.js": "/Foysalmeazi/ReactEcom/static/js/2.1ccfc7cd.chunk.js",
-    "static/js/2.1ccfc7cd.chunk.js.map": "/Foysalmeazi/ReactEcom/static/js/2.1ccfc7cd.chunk.js.map",
-    "index.html": "/Foysalmeazi/ReactEcom/index.html",
-    "precache-manifest.b05620b03453ce1eaa9e4a45f1e26d2d.js": "/Foysalmeazi/ReactEcom/precache-manifest.b05620b03453ce1eaa9e4a45f1e26d2d.js",
-    "service-worker.js": "/Foysalmeazi/ReactEcom/service-worker.js",
-    "static/css/2.63da010e.chunk.css.map": "/Foysalmeazi/ReactEcom/static/css/2.63da010e.chunk.css.map",
-    "static/css/main.1c2aec14.chunk.css.map": "/Foysalmeazi/ReactEcom/static/css/main.1c2aec14.chunk.css.map",
-    "static/media/logo.svg": "/Foysalmeazi/ReactEcom/static/media/logo.9f7e506d.svg"
+    "main.css": "/ReactEcom/static/css/main.1c2aec14.chunk.css",
+    "main.js": "/ReactEcom/static/js/main.98b27951.chunk.js",
+    "main.js.map": "/ReactEcom/static/js/main.98b27951.chunk.js.map",
+    "runtime-main.js": "/ReactEcom/static/js/runtime-main.e2e518a5.js",
+    "runtime-main.js.map": "/ReactEcom/static/js/runtime-main.e2e518a5.js.map",
+    "static/css/2.63da010e.chunk.css": "/ReactEcom/static/css/2.63da010e.chunk.css",
+    "static/js/2.acd657ea.chunk.js": "/ReactEcom/static/js/2.acd657ea.chunk.js",
+    "static/js/2.acd657ea.chunk.js.map": "/ReactEcom/static/js/2.acd657ea.chunk.js.map",
+    "index.html": "/ReactEcom/index.html",
+    "precache-manifest.ab05f3fcf04b4e536145c22f168dc4d3.js": "/ReactEcom/precache-manifest.ab05f3fcf04b4e536145c22f168dc4d3.js",
+    "service-worker.js": "/ReactEcom/service-worker.js",
+    "static/css/2.63da010e.chunk.css.map": "/ReactEcom/static/css/2.63da010e.chunk.css.map",
+    "static/css/main.1c2aec14.chunk.css.map": "/ReactEcom/static/css/main.1c2aec14.chunk.css.map",
+    "static/media/logo.svg": "/ReactEcom/static/media/logo.9f7e506d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9574562f.js",
+    "static/js/runtime-main.e2e518a5.js",
     "static/css/2.63da010e.chunk.css",
-    "static/js/2.1ccfc7cd.chunk.js",
+    "static/js/2.acd657ea.chunk.js",
     "static/css/main.1c2aec14.chunk.css",
-    "static/js/main.1c5fddb5.chunk.js"
+    "static/js/main.98b27951.chunk.js"
   ]
 }
