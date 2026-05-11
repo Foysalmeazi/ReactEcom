@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "683f5edcee1d2bb3b2f73c157f5ec337",
+    "revision": "7f376e8ea938b13f7dd91dfbe0d27d3f",
     "url": "/ReactEcom/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactEcom/static/css/2.63da010e.chunk.css"
   },
   {
-    "revision": "64fe06f3c0b6385820d5",
+    "revision": "1d96fc226f757a1cc449",
     "url": "/ReactEcom/static/css/main.1c2aec14.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ReactEcom/static/js/2.acd657ea.chunk.js"
   },
   {
-    "revision": "64fe06f3c0b6385820d5",
-    "url": "/ReactEcom/static/js/main.9adcf7b1.chunk.js"
+    "revision": "1d96fc226f757a1cc449",
+    "url": "/ReactEcom/static/js/main.9fd4355c.chunk.js"
   },
   {
     "revision": "0622c4713f93cc0e42ed",
