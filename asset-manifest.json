@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ReactEcom/static/css/main.1c2aec14.chunk.css",
-    "main.js": "/ReactEcom/static/js/main.cea293c1.chunk.js",
-    "main.js.map": "/ReactEcom/static/js/main.cea293c1.chunk.js.map",
+    "main.js": "/ReactEcom/static/js/main.a9610ed7.chunk.js",
+    "main.js.map": "/ReactEcom/static/js/main.a9610ed7.chunk.js.map",
     "runtime-main.js": "/ReactEcom/static/js/runtime-main.e2e518a5.js",
     "runtime-main.js.map": "/ReactEcom/static/js/runtime-main.e2e518a5.js.map",
     "static/css/2.63da010e.chunk.css": "/ReactEcom/static/css/2.63da010e.chunk.css",
     "static/js/2.acd657ea.chunk.js": "/ReactEcom/static/js/2.acd657ea.chunk.js",
     "static/js/2.acd657ea.chunk.js.map": "/ReactEcom/static/js/2.acd657ea.chunk.js.map",
     "index.html": "/ReactEcom/index.html",
-    "precache-manifest.d8791f55e0159635d61d03629e7eb920.js": "/ReactEcom/precache-manifest.d8791f55e0159635d61d03629e7eb920.js",
+    "precache-manifest.7f15c3f9248962ce25d91c3d09743cb2.js": "/ReactEcom/precache-manifest.7f15c3f9248962ce25d91c3d09743cb2.js",
     "service-worker.js": "/ReactEcom/service-worker.js",
     "static/css/2.63da010e.chunk.css.map": "/ReactEcom/static/css/2.63da010e.chunk.css.map",
     "static/css/main.1c2aec14.chunk.css.map": "/ReactEcom/static/css/main.1c2aec14.chunk.css.map",
@@ -20,6 +20,6 @@
     "static/css/2.63da010e.chunk.css",
     "static/js/2.acd657ea.chunk.js",
     "static/css/main.1c2aec14.chunk.css",
-    "static/js/main.cea293c1.chunk.js"
+    "static/js/main.a9610ed7.chunk.js"
   ]
 }
